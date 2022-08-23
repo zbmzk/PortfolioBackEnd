@@ -1,4 +1,4 @@
-package com.portfoliorep.backend.Security.Enums.Entity;
+package com.portfoliorep.backend.Security.Entity;
 
 import com.portfoliorep.backend.Security.Enums.RolNombre;
 import javax.persistence.Entity;
@@ -10,12 +10,11 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
 @Entity
-public class Rol {
+public class Rol{
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    
     @NotNull
     @Enumerated(EnumType.STRING)   
     private RolNombre rolNombre;

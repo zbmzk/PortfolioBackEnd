@@ -1,4 +1,4 @@
-package com.portfoliorep.backend.Security.Enums.Entity;
+package com.portfoliorep.backend.Security.Entity;
 
 import java.util.HashSet;
 import java.util.Set;
